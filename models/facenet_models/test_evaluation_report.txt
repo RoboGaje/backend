@@ -1,0 +1,28 @@
+FACENET TEST EVALUATION REPORT
+==================================================
+
+Overall Test Results:
+  Test Loss: 0.0798
+  Test Accuracy: 96.36%
+
+Per-Class Results:
+------------------------------
+       dimas:  71.43% (  7 samples)
+      fabian: 100.00% (  7 samples)
+       sendy:  95.45% ( 22 samples)
+     syahrul: 100.00% ( 23 samples)
+     unknown:  96.71% (243 samples)
+
+Detailed Classification Report:
+----------------------------------------
+              precision    recall  f1-score   support
+
+       dimas       0.42      0.71      0.53         7
+      fabian       1.00      1.00      1.00         7
+       sendy       1.00      0.95      0.98        22
+     syahrul       0.96      1.00      0.98        23
+     unknown       0.99      0.97      0.98       243
+
+    accuracy                           0.96       302
+   macro avg       0.87      0.93      0.89       302
+weighted avg       0.97      0.96      0.97       302

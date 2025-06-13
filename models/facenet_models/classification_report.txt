@@ -1,0 +1,14 @@
+FACENET CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+       dimas       0.62      0.89      0.73         9
+      fabian       1.00      1.00      1.00         6
+       sendy       1.00      0.95      0.98        22
+     syahrul       0.96      1.00      0.98        23
+     unknown       0.99      0.98      0.99       274
+
+    accuracy                           0.98       334
+   macro avg       0.91      0.96      0.93       334
+weighted avg       0.98      0.98      0.98       334

@@ -1,0 +1,22 @@
+description: Ultralytics YOLOv12n model trained on data.yaml
+author: Ultralytics
+date: '2025-06-12T05:20:28.261805'
+version: 8.3.153
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: dimas
+  1: fabian
+  2: people face
+  3: sendy
+  4: syahrul
+args:
+  batch: 1
+  half: false
+channels: 3

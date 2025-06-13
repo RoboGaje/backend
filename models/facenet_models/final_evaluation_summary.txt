@@ -1,0 +1,33 @@
+FACENET FINAL EVALUATION SUMMARY
+==================================================
+
+🎯 TRAINING CONFIGURATION:
+  Epochs: 50
+  Batch Size: 602
+  Learning Rate: 0.001
+  Architecture: 512 -> 256 -> 5
+  Classes: dimas, fabian, sendy, syahrul, unknown
+  Output Directory: models/facenet_models/training_20250612_161117
+
+📊 TEST SET EVALUATION:
+  Test Accuracy: 96.36%
+  Test Loss: 0.0798
+
+  Per-Class Accuracy:
+    dimas: 71.43%
+    fabian: 100.00%
+    sendy: 95.45%
+    syahrul: 100.00%
+    unknown: 96.71%
+
+🖼️  SAMPLE IMAGES TEST:
+  Images Tested: 10
+  Faces Detected: 32
+  Avg Faces/Image: 3.20
+
+📁 OUTPUT FILES:
+  Models: models/facenet_models/training_20250612_161117/
+  Test Results: models/facenet_models/training_20250612_161117/test_results/
+  Training Curves: models/facenet_models/training_20250612_161117/training_curves.png
+  Confusion Matrix: models/facenet_models/training_20250612_161117/confusion_matrix_test.png
+  Class Accuracy: models/facenet_models/training_20250612_161117/class_accuracy_test.png
